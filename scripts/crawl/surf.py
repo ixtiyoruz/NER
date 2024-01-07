@@ -13,8 +13,6 @@ import json
 import threading
 df = pd.read_csv("docs/assignment/furniture stores pages.csv")
 
-# options = Options()
-# options.add_experimental_option("detach", True)
 if True:
     def saver(idx_str, status, text_json:str):
         with open(f"data/crawled_texts/idx_{idx_str}_s_{status}.json", 'wt+') as f:
