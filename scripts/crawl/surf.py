@@ -1,6 +1,4 @@
 import os
-# os.environ['XDG_DOWNLOAD_DIR'] = "/mnt/E454495E54493498/.apps/chrome"
-# os.system("xdg-user-dirs-update --set DOWNLOAD " + "/mnt/E454495E54493498/.apps/chrome")
 import sys
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
